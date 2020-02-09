@@ -20,7 +20,6 @@ class App extends Component {
   // - will add that array of photos to state once received
   componentDidMount() {
     fetch(PHOTO_LIST_URL).then(response => response.json()).then(responseBody => {
-      console.log(responseBody);
       this.setState({ photos: responseBody })
     })
   }
@@ -28,11 +27,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>
-          <h1>Photo Wall</h1>
-          <p>
-          </p>
-        </header>
+       <div id="h1">Photo Wall</div>
         <div className="collage">
           {/* We use map here because Array.prototype.map is an expression,
            * and for loops are not. You'll learn more about this soon!
