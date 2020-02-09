@@ -30,8 +30,6 @@ time, mark, audio, video {
     justify-content: center;
 }
 
-
-
 /* 7. Write CSS rules that ensure that no more than 4 photos appear on a row */
 .collage {
     justify-content: center;

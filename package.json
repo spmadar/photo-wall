@@ -1,5 +1,6 @@
 {
   "name": "react-photo-wall",
+  "homepage": "https://spmadar.gitlab.io/assessment---react-photo-wall",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
